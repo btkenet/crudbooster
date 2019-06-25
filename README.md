@@ -106,7 +106,7 @@ CRUDBooster is under [MIT License](https://opensource.org/licenses/MIT)
 As always if you found this package useful and you want to encourage us to maintain and work on it. Just press the star button to declare your willing.
 
 AppServiceProvider.php
-
+'''
 <?php
 
 namespace App\Providers;
@@ -137,3 +137,4 @@ class AppServiceProvider extends ServiceProvider
         //
     }
 }
+'''
