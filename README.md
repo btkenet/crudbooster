@@ -106,35 +106,35 @@ CRUDBooster is under [MIT License](https://opensource.org/licenses/MIT)
 As always if you found this package useful and you want to encourage us to maintain and work on it. Just press the star button to declare your willing.
 
 AppServiceProvider.php
-'''
-<?php
 
-namespace App\Providers;
+	<?php
 
-use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Schema;
+	namespace App\Providers;
 
-class AppServiceProvider extends ServiceProvider
-{
-    /**
-     * Bootstrap any application services.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        //
-		Schema::defaultStringLength(100);
-    }
+	use Illuminate\Support\ServiceProvider;
+	use Illuminate\Support\Facades\Schema;
 
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
-    }
-}
-'''
+	class AppServiceProvider extends ServiceProvider
+	{
+	    /**
+	     * Bootstrap any application services.
+	     *
+	     * @return void
+	     */
+	    public function boot()
+	    {
+		//
+			Schema::defaultStringLength(100);
+	    }
+
+	    /**
+	     * Register any application services.
+	     *
+	     * @return void
+	     */
+	    public function register()
+	    {
+		//
+	    }
+	}
+
